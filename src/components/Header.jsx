@@ -44,9 +44,7 @@ function Header() {
                       key={subIndex}
                       className="px-4 py-2 hover:bg-gray-200 hover:rounded"
                     >
-                      <Link to={subItem.link} target="_blank">
-                        {subItem.name}
-                      </Link>
+                      <Link to={subItem.link}>{subItem.name}</Link>
                     </li>
                   ))}
                 </ul>
@@ -57,76 +55,75 @@ function Header() {
       </nav>
 
       {/* Mobile Menu Icon */}
-        <button
-          className="block lg:hidden text-[#EEBB1E] text-xl "
-          onClick={toggleMobileMenu}
-        >
-          <FaBars />
+      <button
+        className="block lg:hidden text-[#EEBB1E] text-xl "
+        onClick={toggleMobileMenu}
+      >
+        <FaBars />
+      </button>
+
+      <div
+        className={`fixed top-0 right-0 h-full z-20 bg-[#050066] text-white w-64 transform transition-transform duration-300 ${
+          mobileMenuOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <button className="p-4 text-2xl" onClick={toggleMobileMenu}>
+          <FaArrowLeft />
         </button>
 
-        <div
-          className={`fixed top-0 right-0 h-full z-20 bg-[#050066] text-white w-64 transform transition-transform duration-300 ${
-            mobileMenuOpen ? "translate-x-0" : "translate-x-full"
-          }`}
-        >
-          <button className="p-4 text-2xl" onClick={toggleMobileMenu}>
-            <FaArrowLeft />
-          </button>
-
-          <ul className="space-y-4 p-4">
-            {NAV_DATA.map((item, index) => (
-              <li key={index} className="flex flex-col">
-                <div className="flex justify-between items-center">
-                  {item.dropdown ? (
-                    <button
-                      onClick={() => toggleSubmenu(index)}
-                      className="hover:text-gray-300"
-                    >
-                      {item.name}
-                    </button>
-                  ) : (
-                    <Link
-                      to={item.link}
-                      onClick={toggleMobileMenu}
-                      className="hover:text-gray-300"
-                    >
-                      {item.name}
-                    </Link>
-                  )}
-
-                  {item.dropdown && (
-                    <button
-                      className="ml-2 text-xl"
-                      onClick={() => toggleSubmenu(index)}
-                    >
-                      {submenuOpen === index ? (
-                        <FaChevronDown />
-                      ) : (
-                        <FaChevronRight />
-                      )}
-                    </button>
-                  )}
-                </div>
-                {item.dropdown && submenuOpen === index && (
-                  <ul className="pl-4 mt-2">
-                    {item.dropdown.map((subItem, subIndex) => (
-                      <li key={subIndex} className="py-1">
-                        <Link
-                          to={subItem.link}
-                          onClick={toggleMobileMenu}
-                          className="hover:text-gray-300"
-                          target="_blank"
-                        >
-                          {subItem.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
+        <ul className="space-y-4 p-4">
+          {NAV_DATA.map((item, index) => (
+            <li key={index} className="flex flex-col">
+              <div className="flex justify-between items-center">
+                {item.dropdown ? (
+                  <button
+                    onClick={() => toggleSubmenu(index)}
+                    className="hover:text-gray-300"
+                  >
+                    {item.name}
+                  </button>
+                ) : (
+                  <Link
+                    to={item.link}
+                    onClick={toggleMobileMenu}
+                    className="hover:text-gray-300"
+                  >
+                    {item.name}
+                  </Link>
                 )}
-              </li>
-            ))}
-          </ul>
-        </div>
+
+                {item.dropdown && (
+                  <button
+                    className="ml-2 text-xl"
+                    onClick={() => toggleSubmenu(index)}
+                  >
+                    {submenuOpen === index ? (
+                      <FaChevronDown />
+                    ) : (
+                      <FaChevronRight />
+                    )}
+                  </button>
+                )}
+              </div>
+              {item.dropdown && submenuOpen === index && (
+                <ul className="pl-4 mt-2">
+                  {item.dropdown.map((subItem, subIndex) => (
+                    <li key={subIndex} className="py-1">
+                      <Link
+                        to={subItem.link}
+                        onClick={toggleMobileMenu}
+                        className="hover:text-gray-300"
+                      >
+                        {subItem.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

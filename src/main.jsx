@@ -10,6 +10,8 @@ import Home from "./pages/Home.jsx";
 import Memberships from "./pages/Memberships.jsx";
 import History from "./pages/History.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
+import MensCricket from "./pages/MensCricket.jsx";
+import JuniorCricket from "./pages/JuniorCricket.jsx";
 
 const appLayout = createBrowserRouter([
   {
@@ -44,6 +46,14 @@ const appLayout = createBrowserRouter([
         path: "/History",
         element: <History />,
       },
+      {
+        path: "/MensCricket/:id",
+        element: <MensCricket />,
+      },
+      {
+        path:"/junior-cricket",
+        element:<JuniorCricket/>
+      }
     ],
   },
 ]);

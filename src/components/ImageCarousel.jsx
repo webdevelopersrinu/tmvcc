@@ -16,7 +16,7 @@ function ImageCarousel() {
   };
   return (
     <div className="bg-black">
-      <div className="lg:mx-60 md:mx-40 mx-36">
+      <div className="lg:mx-60 md:mx-40 mx-7">
         <Slider {...settings}>
           {CAROUSEL_IMG.map((item) => (
             <div className="w-[80%] mx-auto">

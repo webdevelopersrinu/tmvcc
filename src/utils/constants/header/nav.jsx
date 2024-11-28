@@ -3,21 +3,24 @@ export const NAV_DATA = [
   {
     name: "Info",
     dropdown: [
-      { name: "History", link: "" },
+      { name: "History", link: "/History" },
       { name: "Gallery", link: "" },
       { name: "Documents & Policies", link: "" },
     ],
   },
-  { name: "Blog", link: "/blog" },
+  {
+    name: "Blog",
+    link: "https://webdevelopersrinu.github.io/Trafford-Metrovics-Cricket-Club-Newsletter/",
+  },
   { name: "Memberships", link: "memberships" },
   { name: "Club Shop", link: "/club-shop" },
   {
     name: "Teams",
     dropdown: [
-      { name: "Men's Cricket 1's XI", link: "" },
-      { name: "Men's Cricket 2's XI", link: "" },
-      { name: "Men's Cricket 3's XI", link: "" },
-      { name: "Men's Cricket 4's XI", link: "" },
+      { name: "Men's Cricket 1's XI", link: "/MensCricket/1" },
+      { name: "Men's Cricket 2's XI", link: "/MensCricket/2" },
+      { name: "Men's Cricket 3's XI", link: "/MensCricket/3" },
+      { name: "Men's Cricket 4's XI", link: "/MensCricket/4" },
     ],
   },
   {
@@ -40,14 +43,15 @@ export const NAV_DATA = [
   {
     name: "Junior Cricket",
     dropdown: [
+      { name: "Junior Cricket", link: "/junior-cricket" },
       { name: "Women's Cricket", link: "" },
       { name: "Junior Info", link: "" },
       { name: "All Stars Cricket", link: "" },
       { name: "Dynamos Cricket", link: "" },
       { name: "Club Welfare", link: "" },
-      { name: "Under 13's", link: "" },
-      { name: "Under 11's", link: "" },
-      { name: "Under 9's", link: "" },
+      // { name: "Under 13's", link: "" },
+      // { name: "Under 11's", link: "" },
+      // { name: "Under 9's", link: "" },
     ],
   },
   { name: "Contact Us", link: "/contact" },
