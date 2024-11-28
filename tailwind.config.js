@@ -1,3 +1,5 @@
+import HeaderImg from "./src/assets/headerBg.jpg";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -6,6 +8,9 @@ export default {
       colors: {
         "primary-color": "#050066",
         "copy-right-color": "#EEBB1E",
+      },
+      backgroundImage: {
+        "header-img": `url(https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2c/f3/a3.jpg)`,
       },
     },
   },
