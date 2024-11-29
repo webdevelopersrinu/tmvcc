@@ -60,6 +60,7 @@ function Footer() {
                 <a
                   key={item.link}
                   href={item.link}
+                  target="_blank"
                   className="flex  items-center gap-2 text-2xl"
                 >
                   {item.icon}

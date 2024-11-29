@@ -1,28 +1,33 @@
-import carousel1 from "./../../../assets/carousel/1.jpg";
-import carousel2 from "./../../../assets/carousel/2.jpg";
-import carousel3 from "./../../../assets/carousel/3.jpg";
-import carousel4 from "./../../../assets/carousel/4.jpg";
-import carousel5 from "./../../../assets/carousel/5.jpg";
+import carousel1 from "./../../../assets/carousel/1.png";
+import carousel2 from "./../../../assets/carousel/2.png";
+import carousel3 from "./../../../assets/carousel/3.png";
+import carousel4 from "./../../../assets/carousel/4.png";
+import carousel5 from "./../../../assets/carousel/5.png";
+import carousel6 from "./../../../assets/carousel/6.png";
 
 export const CAROUSEL_IMG = [
   {
     imgUrl: carousel1,
-    link: "https://tmcc.play-cricket.com/website/results/6440193",
+    link: "/History",
   },
   {
     imgUrl: carousel2,
-    link: "https://www.amazon.co.uk/photos/share/FkBROavzZPQuNq1PakkQkErVNclgXLbJMgnWFDmsC6W",
-  },
-  {
-    imgUrl: carousel3,
-    link: "",
-  },
-  {
-    imgUrl: carousel4,
     link: "/junior-cricket",
   },
   {
+    imgUrl: carousel3,
+    link: "https://tmcc.play-cricket.com/home",
+  },
+  {
+    imgUrl: carousel4,
+    link: "https://www.amazon.co.uk/photos/share/FkBROavzZPQuNq1PakkQkErVNclgXLbJMgnWFDmsC6W",
+  },
+  {
     imgUrl: carousel5,
-    link: "/History",
+    link: "https://drive.google.com/file/d/1o5pG6bMl7ecg7tEJBUvvzs9gSbG4mwBN/view?usp=sharing",
+  },
+  {
+    imgUrl: carousel6,
+    link: "https://traffordmvrfcc.rfu.club/news/club-members-christmas-party-december-21st",
   },
 ];
