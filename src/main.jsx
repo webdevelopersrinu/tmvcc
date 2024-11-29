@@ -12,6 +12,11 @@ import History from "./pages/History.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.jsx";
 import MensCricket from "./pages/MensCricket.jsx";
 import JuniorCricket from "./pages/JuniorCricket.jsx";
+import WomensCricket from "./pages/WomensCricket.jsx";
+import AllStarsCricket from "./pages/AllStarsCricket.jsx";
+import ClubWelfare from "./pages/ClubWelfare.jsx";
+import DynamosCricket from "./pages/DynamosCricket.jsx";
+import DocumentsPolicies from "./pages/DocumentsPolicies.jsx";
 
 const appLayout = createBrowserRouter([
   {
@@ -51,8 +56,32 @@ const appLayout = createBrowserRouter([
         element: <MensCricket />,
       },
       {
-        path:"/junior-cricket",
-        element:<JuniorCricket/>
+        path: "/junior-cricket",
+        element: <JuniorCricket />,
+      },
+      {
+        path: "/womens-cricket",
+        element: <WomensCricket />,
+      },
+      {
+        path: "/junior-info",
+        element: <JuniorCricket />,
+      },
+      {
+        path: "/all-stars-cricket",
+        element: <AllStarsCricket />,
+      },
+      {
+        path: "/dynamos-cricket",
+        element: <DynamosCricket />,
+      },
+      {
+        path: "/club-welfare",
+        element: <ClubWelfare />,
+      },
+      {
+        path:"/documents-policies",
+        element:<DocumentsPolicies/>
       }
     ],
   },

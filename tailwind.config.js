@@ -1,4 +1,4 @@
-import HeaderImg from "./src/assets/headerBg.jpg";
+import HeaderImg from "./src/assets/headerBg2.jpg";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -10,7 +10,8 @@ export default {
         "copy-right-color": "#EEBB1E",
       },
       backgroundImage: {
-        "header-img": `url(https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2c/f3/a3.jpg)`,
+        "header-img": `url(./src/assets/headerBg2.jpg)`,
+        'radial-gradient-black-white': 'radial-gradient(circle, rgba(0,0,0,0.2807247899159664) 0%, rgba(255,255,255,0) 61%)',
       },
     },
   },

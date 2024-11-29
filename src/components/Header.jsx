@@ -19,14 +19,14 @@ function Header() {
   };
 
   return (
-    <div className="bg-primary-color bg-[url(https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2c/f3/a3.jpg)] bg-no-repeat bg-cover bg-center flex items-center justify-between lg:justify-around px-4 py-3">
+    <div className="bg-primary-color bg-[url(https://raw.githubusercontent.com/webdevelopersrinu/Trafford-Metrovics-Cricket-Club-Newsletter/refs/heads/main/headerBg2.png)] bg-no-repeat bg-cover bg-center flex items-center justify-between lg:justify-around px-4 py-3">
       <Link>
         <img src={LOGO_IMG} alt="logo" className="w-24 rounded-full" />
       </Link>
 
       {/* Desktop Navigation */}
       <nav className="hidden lg:block">
-        <ul className="flex space-x-6 text-white text-nowrap drop-shadow-2xl">
+        <ul className="flex space-x-6 text-white text-nowrap ">
           {NAV_DATA.map((item, index) => (
             <li key={index} className="relative group">
               {item.dropdown ? (
