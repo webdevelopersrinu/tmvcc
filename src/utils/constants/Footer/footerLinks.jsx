@@ -9,7 +9,7 @@ export const INFORMATION = [
 ];
 
 export const SOCIAL_MEDIA = [
-  { name: "Instagram", link: "#", icon: <FaInstagramSquare /> },
+  { name: "Instagram", link: "https://www.instagram.com/traffordmvcc/", icon: <FaInstagramSquare /> },
   { name: "Facebook", link: "#", icon: <FaFacebook /> },
   { name: "TikTok", link: "#", icon: <AiFillTikTok /> },
   { name: "Youtube", link: "#", icon: <FaYoutube /> },

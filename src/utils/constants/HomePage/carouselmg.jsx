@@ -7,7 +7,7 @@ import carousel5 from "./../../../assets/carousel/5.jpg";
 export const CAROUSEL_IMG = [
   {
     imgUrl: carousel1,
-    link: "",
+    link: "https://tmcc.play-cricket.com/website/results/6440193",
   },
   {
     imgUrl: carousel2,
