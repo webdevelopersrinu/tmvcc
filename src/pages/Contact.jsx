@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="text-black px-4 ">
+    <div className="text-black px-4  py-6">
       <h1 className="text-center text-3xl font-bold py-3 ">Contact</h1>
       <div className="flex items-center flex-col justify-center">
         <main>
@@ -26,7 +26,8 @@ function Contact() {
             </section>
           </div>
         </main>
-        <div className="flex items-center gap-4 my-4">
+
+        {/* <div className="flex items-center gap-4 my-4">
           <div className="text-2xl py-3 text-white inline-block my-3 px-2 rounded-xl cursor-pointer bg-primary-color">
             <a href="https://forms.gle/fLcAD9wHNrcEG4g26" target="_blank">
               Google Form
@@ -37,7 +38,8 @@ function Contact() {
               Payment link
             </a>
           </div>
-        </div>
+        </div> */}
+
       </div>
     </div>
   );

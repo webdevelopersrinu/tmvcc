@@ -45,7 +45,7 @@ function Footer() {
           <div>
             <h1 className="text-2xl font-bold py-3 border-b-2">Information</h1>
             <div className="py-7 flex flex-col gap-2">
-              {INFORMATION.map((item,index) => (
+              {INFORMATION.map((item, index) => (
                 <Link to={item.link} key={index} className="inline-block">
                   <span className="font-semibold text-xl"> {item.name} </span>
                 </Link>
@@ -72,11 +72,12 @@ function Footer() {
       </div>
       <p className="text-xl py-2 text-center">
         Email us at
-        <p className="py-2">contact@tmvcricket.club</p> or{" "}
-        <p>traffordmetrovics.cc@gmail.com</p>
+        <p className="py-2">
+          contact@tmvcricket.club (or) traffordmetrovics.cc@gmail.com
+        </p>
       </p>
       <div className="bg-copy-right-color text-black text-xl py-2 text-center">
-        © Bowdon Vale Cricket Club 2024 | All Rights Reserved
+        © TMV Cricket Club 2024 | All Rights Reserved
       </div>
     </div>
   );
