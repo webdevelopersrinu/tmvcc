@@ -16,9 +16,9 @@ const App = () => {
           <CardsData cardData={item} />
         ))}
       </div>
-      <div className="flex items-center justify-center py-4">
+      <div className="flex items-center justify-center py-4 px-6">
         <Link to="/memberships">
-          <img src={MembershipsIMg} alt="Memberships image" />
+          <img src={MembershipsIMg} alt="Memberships image" className="rounded-2xl" />
         </Link>
       </div>
       <section>

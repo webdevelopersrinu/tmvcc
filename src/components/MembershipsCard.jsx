@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 function MembershipsCard({ cardData }) {
   const { name, link, price, renewalDate, startDate } = cardData;
   return (
-    <div className="bg-[#F6F6F6] my-4 border border-t-primary-color border-t-4 flex items-center justify-between px-4 shadow-xl">
+    <div className="bg-[#F6F6F6] my-4 border border-t-primary-color border-t-4 flex-col py-3
+     sm:flex-row flex items-center justify-between px-4 shadow-xl">
       <Link to={link}>
         <div >
           <h1 className="text-3xl font-bold py-4">{name}</h1>
