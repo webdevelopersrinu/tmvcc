@@ -16,7 +16,7 @@ function ImageCarousel() {
   };
   return (
     <div className="bg-black py-4 z-10 px-7 ">
-      <div className="lg:mx-5 md:mx-8 mx-2">
+      <div className="lg:mx-5 md:mx-2 mx-2">
         <Slider {...settings}>
           {CAROUSEL_IMG.map((item) => (
             <Link to={item.link}>

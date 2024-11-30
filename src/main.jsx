@@ -19,6 +19,7 @@ import DynamosCricket from "./pages/DynamosCricket.jsx";
 import DocumentsPolicies from "./pages/DocumentsPolicies.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import Results from "./pages/Results.jsx";
+import NewsLetter from "./pages/NewsLetter.jsx";
 
 const appLayout = createBrowserRouter([
   {
@@ -88,6 +89,10 @@ const appLayout = createBrowserRouter([
       {
         path: "/results/:id",
         element: <Results />,
+      },
+      {
+        path:"/newsletter",
+        element:<NewsLetter/>
       },
       {
         path: "*",
