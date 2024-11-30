@@ -16,7 +16,7 @@ export const NAV_DATA = [
     link: "/blog",
   },
   { name: "Memberships", link: "memberships" },
-  { name: "Club Shop", link: "/club-shop" },
+  { name: "Club Booking", link: "https://www.tmvevents.co.uk/" },
   {
     name: "Teams",
     dropdown: [
