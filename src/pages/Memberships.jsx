@@ -9,7 +9,6 @@ function Memberships() {
       {
         MEMBERSHIPS_CARD_DATA.map(item=><MembershipsCard cardData={item}/>)
       }
-      
     </div>
   );
 }
