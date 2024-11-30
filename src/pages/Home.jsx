@@ -5,6 +5,7 @@ import { CAROUSEL_IMG } from "../utils/constants/HomePage/carouselmg";
 import CardsData from "../components/CardsData";
 import { CARD_DATA } from "../utils/constants/cards/cardData";
 import { Link } from "react-router-dom";
+import InstagramData from "../components/InstagramData";
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
           <img src={MembershipsIMg} alt="Memberships image" />
         </Link>
       </div>
+      <section>
+        <InstagramData/>
+      </section>
     </div>
   );
 };

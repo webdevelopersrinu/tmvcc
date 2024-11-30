@@ -24,7 +24,7 @@ export const CAROUSEL_IMG = [
   },
   {
     imgUrl: carousel5,
-    link: "https://drive.google.com/file/d/1o5pG6bMl7ecg7tEJBUvvzs9gSbG4mwBN/view?usp=sharing",
+    link: "/newsletter",
   },
   {
     imgUrl: carousel6,
