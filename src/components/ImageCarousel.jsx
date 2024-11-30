@@ -15,16 +15,16 @@ function ImageCarousel() {
     autoplaySpeed: 2000,
   };
   return (
-    <div className="bg-black py-4 z-10 px-7">
+    <div className="bg-black py-4 z-10 px-7 ">
       <div className="lg:mx-5 md:mx-8 mx-2">
         <Slider {...settings}>
           {CAROUSEL_IMG.map((item) => (
             <Link to={item.link}>
-              <div className="w-[90%] mx-auto -z-20">
+              <div className="w-[90%] mx-auto -z-20 border  border-white shadow-sm shadow-white hover:border-none hover:shadow-none">
                 <img
                   src={item.imgUrl}
                   alt="carousel image"
-                  className="w-full rounded-xl"
+                  className="w-full "
                 />
               </div>
             </Link>

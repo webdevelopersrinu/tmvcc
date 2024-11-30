@@ -17,6 +17,8 @@ import AllStarsCricket from "./pages/AllStarsCricket.jsx";
 import ClubWelfare from "./pages/ClubWelfare.jsx";
 import DynamosCricket from "./pages/DynamosCricket.jsx";
 import DocumentsPolicies from "./pages/DocumentsPolicies.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import Results from "./pages/Results.jsx";
 
 const appLayout = createBrowserRouter([
   {
@@ -80,9 +82,17 @@ const appLayout = createBrowserRouter([
         element: <ClubWelfare />,
       },
       {
-        path:"/documents-policies",
-        element:<DocumentsPolicies/>
-      }
+        path: "/documents-policies",
+        element: <DocumentsPolicies />,
+      },
+      {
+        path: "/results/:id",
+        element: <Results />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
+      },
     ],
   },
 ]);

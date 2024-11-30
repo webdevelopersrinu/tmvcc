@@ -8,7 +8,7 @@ function MembershipsCard({ cardData }) {
       <Link to={link}>
         <div >
           <h1 className="text-3xl font-bold py-4">{name}</h1>
-          <div className="text-xs sm:text-sm  flex items-center sm:gap-2 flex-col py-2">
+          <div className="text-xs sm:text-lg  flex items-center sm:gap-2 flex-col py-2">
             <p>Start Date: {startDate}</p>
             <p>Renewal Date: {renewalDate}</p>
           </div>
