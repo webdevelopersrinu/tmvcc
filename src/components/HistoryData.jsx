@@ -5,7 +5,7 @@ function HistoryData() {
     <div>
       <main class="container mx-auto p-6 pt-3">
         <section>
-          <p class="mt-4 text-lg">
+          <p class=" text-lg">
             Trafford Metrovics Cricket Club, originally known as Metrovick Rugby
             Football and Cricket Club, has a rich history intertwined with the
             industrial heritage of Manchester. The club was established on May
@@ -16,7 +16,7 @@ function HistoryData() {
         </section>
 
         <section>
-          <h2 class="text-2xl font-semibold mt-8">Formation and Early Years</h2>
+          <h2 class="text-2xl font-semibold mt-2">Formation and Early Years</h2>
           <p class="mt-4 text-lg">
             In 1948, 25 years after the rugby section's inception, the club
             expanded to include a cricket section due to popular demand. This
