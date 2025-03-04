@@ -21,6 +21,7 @@ import NotFound from "./pages/NotFound.jsx";
 import Results from "./pages/Results.jsx";
 import NewsLetter from "./pages/NewsLetter.jsx";
 import LeagueTable from "./pages/LeagueTable.jsx";
+import FixturesResults from "./pages/FixturesResults.jsx";
 
 const appLayout = createBrowserRouter([
   {
@@ -98,6 +99,10 @@ const appLayout = createBrowserRouter([
       {
         path: "/league-table",
         element: <LeagueTable />
+      },
+      {
+        path: "/fixtures-results",
+        element: <FixturesResults />
       },
       {
         path: "*",
