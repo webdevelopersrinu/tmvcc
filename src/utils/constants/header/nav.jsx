@@ -1,5 +1,6 @@
 export const NAV_DATA = [
   { name: "Home", link: "/" },
+  { name: "League Table", link: "/league-table" },
   {
     name: "Info",
     dropdown: [
