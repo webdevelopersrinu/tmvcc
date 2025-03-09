@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="bg-primary-color text-white">
+    <div className="bg-[#3F49AB] text-white">
       {/* company data */}
       <div>
         <img

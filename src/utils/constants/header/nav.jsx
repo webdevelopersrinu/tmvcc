@@ -1,6 +1,13 @@
 export const NAV_DATA = [
   { name: "Home", link: "/" },
-  { name: "League Table", link: "/league-table" },
+  {
+    name: "Matches",
+    dropdown: [
+      { name: "Fixtures & Results", link: "/fixtures-results" },
+      { name: "League Table", link: "/league-table" },
+      { name: "Stats", link: "https://tmcc.play-cricket.com/Statistics" },
+    ],
+  },
   {
     name: "Info",
     dropdown: [
