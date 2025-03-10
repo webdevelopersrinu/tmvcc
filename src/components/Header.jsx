@@ -65,7 +65,7 @@ function Header() {
       </button>
 
       <div
-        className={`fixed top-0 right-0 h-full z-20 bg-[#050066] text-white w-64 transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full z-20 bg-[#3D4AA8] text-white w-64 transform transition-transform duration-300 ${
           mobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
