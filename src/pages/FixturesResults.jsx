@@ -179,7 +179,11 @@ function FixturesResults() {
                         filteredResults.map(match => (
                             <div key={match.id} className="border p-3 rounded-md bg-white shadow-md my-2">
                                 <p className="font-bold">{match.match_date} - {match.match_time}</p>
-                                <p>{match.home_team_name} vs {match.away_team_name}</p>
+                                <div className='flex items-center gap-5 py-4'>
+                                    <p>{match.home_club_name} {match.home_team_name}</p>
+                                    <span className='text-gray-50 p-1 px-2 bg-red-500 rounded-full text-center'>vs</span>
+                                    <p>{match.away_club_name} {match.away_team_name}</p>
+                                </div>
                                 <p className="text-gray-500">
                                     Ground: {match.ground_name} | {match.league_name} - {match.competition_name}
                                 </p>
