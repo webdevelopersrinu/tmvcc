@@ -137,8 +137,13 @@ function FixturesResults() {
                     FIXTURES & RESULTS <span className="text-green-600">•</span>
                 </h2>
                 <div className="flex space-x-2 text-gray-500">
-                    <FaTwitter className="cursor-pointer hover:text-blue-500" />
-                    <FaFacebook className="cursor-pointer hover:text-blue-700" />
+
+                    <a href='https://x.com/traffordmvcc' target='_blank'>
+                        <FaTwitter className="cursor-pointer hover:text-blue-500" />
+                    </a>
+                    <a href='https://www.facebook.com/profile.php?id=61573149346945' target='_blank'>
+                        <FaFacebook className="cursor-pointer hover:text-blue-700" />
+                    </a>
                 </div>
             </div>
 

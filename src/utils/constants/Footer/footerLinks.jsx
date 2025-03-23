@@ -12,8 +12,8 @@ export const INFORMATION = [
 
 export const SOCIAL_MEDIA = [
   { name: "Instagram", link: "https://www.instagram.com/traffordmvcc/", icon: <FaInstagramSquare /> },
-  { name: "Facebook", link: " https://www.facebook.com/profile.php?id=61573149346945", icon: <FaFacebook /> },
-  { name: "Twitter", link: "https://x.com/traffordmvcc ", icon: <FaXTwitter /> },
+  { name: "Facebook", link: "https://www.facebook.com/profile.php?id=61573149346945", icon: <FaFacebook /> },
+  { name: "Twitter", link: "https://x.com/traffordmvcc", icon: <FaXTwitter /> },
   { name: "Youtube", link: "https://www.youtube.com/@traffordmvcc", icon: <FaYoutube /> },
 ];
 
